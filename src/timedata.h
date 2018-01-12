@@ -10,6 +10,7 @@
 #include <stdint.h>
 #include <vector>
 
+/* think about changing this TODO: dschofie */
 static const int64_t DEFAULT_MAX_TIME_ADJUSTMENT = 35 * 60;
 
 class CNetAddr;
