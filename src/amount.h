@@ -24,9 +24,9 @@ static const CAmount CENT = 1000000;
  * for the creation of coins out of thin air modification could lead to a fork.
  * */
 
-/** Changing the max coins which was 84000000 for litecoin to 1000 for schoin */
+/** Changing the max coins which was 84000000 for litecoin to 10000 for schoin */
 
-static const CAmount MAX_MONEY = 1000 * COIN;
+static const CAmount MAX_MONEY = 100000 * COIN;
 inline bool MoneyRange(const CAmount& nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 
 #endif //  BITCOIN_AMOUNT_H
